@@ -4,13 +4,13 @@
   --brightColor: #ec5242;
   --grayColor: #d3d3d3;
   --whiteColor: #f7f4f4;
+  --whiteWhite: #ffffff;
+
 
   --mainFont: "Lato", sans-serif;
   --altFont1: "Carrois Gothic SC", sans-serif;
   --altFont2: "Fredoka One", cursive;
   --altFont3: "Hanken Grotesk", sans-serif;
-
-
 }
 body {
   font-family: var(--mainFont);
@@ -271,7 +271,7 @@ footer{
     justify-content: center;
     gap: 30px;
     font-size: 0.8rem;
-    background-color: var(--whiteColor);
+    background-color: var(--whiteWhite);
     padding: 30px;
 
 }

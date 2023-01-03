@@ -1,0 +1,99 @@
+:root {
+    --darkColor: #272a31;
+    --brightColor: #ec5242;
+    --grayColor: #d3d3d3;
+    --whiteColor: #f7f4f4;
+    --whiteWhite: #ffffff;
+  
+    --mainFont: "Lato", sans-serif;
+    --altFont1: "Carrois Gothic SC", sans-serif;
+    --altFont2: "Fredoka One", cursive;
+    --altFont3: "Hanken Grotesk", sans-serif;
+  }
+  .intro-title{
+    text-align: center;
+  }
+
+  .about-statement{
+    text-align: center;
+    background-color: var(--whiteWhite);
+    border: 1px solid var(--grayColor);
+    color: rgb(34, 34, 34);
+    font-size: 1.08rem;
+    line-height: 1.7rem;
+    margin: 10px;
+    padding: 10px;
+  }
+  .contact{
+    text-align: center;
+    font-size: 1rem;
+    margin-bottom: 30px;
+
+  }
+  .contact a{
+    color: black;
+    font-weight: 500;
+  }
+section.display-section{
+    background-color: var(--whiteWhite);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 20px;
+}
+section.display-section img{
+    border: 1px solid var(--grayColor);
+    margin-bottom: 20px;
+}
+section.past-events{
+    background-color: var(--whiteWhite);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+section.past-events h3{
+    position: relative;
+    text-align: center;
+    padding: 20px;
+
+}
+section.past-events h3::before{
+    position: absolute;
+    content: "";
+    height: 1px;
+    width: 35px;
+    background-color: var(--brightColor);
+    top: calc(35px + 20px);
+    left: 40%;
+}
+section.past-events p{
+    text-align: center;
+}
+section.past-events div div{
+    position: relative;
+}
+section.past-events div div img{
+    width: 300px;
+    height: 150px;
+    padding: 20px;
+}
+section.past-events div div span{
+    position: absolute;
+    width: 300px;
+    height: 150px;
+    margin: 20px;
+    top: 0;
+    left: 0;
+    background-color: rgba(145, 41, 4, 0.6);
+    z-index: 2;
+    color: aliceblue;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.4rem;
+}
+
