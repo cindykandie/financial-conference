@@ -21,13 +21,17 @@
     color: rgb(34, 34, 34);
     font-size: 1.08rem;
     line-height: 1.7rem;
-    margin: 10px;
+    margin:auto;
     padding: 10px;
+    max-width: 900px;
   }
   .contact{
     text-align: center;
     font-size: 1rem;
     margin-bottom: 30px;
+    max-width: 600px;
+    margin: auto;
+
 
   }
   .contact a{

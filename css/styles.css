@@ -12,10 +12,32 @@
   --altFont2: "Fredoka One", cursive;
   --altFont3: "Hanken Grotesk", sans-serif;
 }
+a:link {
+    color: var(--darkColor);
+    text-decoration: none;
+    transition: all 1s;
+  }
+  
+a:visited {
+    color: var(--darkColor);
+  }
+  
+a:hover {
+    color: var(--brightColor);
+    text-shadow: 1px 1px var(--brightColor);
+  }
+  
+a:active {
+    color: purple;
+  }
 body {
   font-family: var(--mainFont);
   background-color: var(--whiteColor);
 }
+.desktop-banner{
+    display: none;
+}
+
 header nav.mobile-nav {
   padding: 10px;
   margin-bottom: 40px;
@@ -108,6 +130,7 @@ section.program-section{
     background-image: repeating-linear-gradient(-45deg, rgba(44, 10, 10, 0.1), rgba(247, 93, 4, 0.2) 1px, transparent 1px, transparent 9px);
     background-size: 14px 14px;
     color: var(--whiteColor);
+    padding-bottom: 20px;
 }
 div.program-display{
     display: flex;
@@ -163,9 +186,12 @@ button.orange-btn{
     padding: 15px;
     outline: none;
     border: 1px solid var(--brightColor);
-    margin: 30px auto;
+    margin: 20px auto;
     min-width: 200px;
     color: var(--whiteColor);
+    display: flex;
+    align-items: center;
+
 }
 
 section.speakers-section h3{
@@ -183,6 +209,10 @@ section.speakers-section h3::before{
     top: calc(35px + 20px);
     left: calc(20px + 42%);
 }
+section.speakers-section ul{
+    display: flex;
+    flex-direction: column;
+}
 section.speakers-section ul li{
     list-style: none;
     display: flex;
@@ -191,7 +221,6 @@ section.speakers-section ul li{
     position: relative;
     gap: 15px;
     margin: 20px 0;
-
 }
 section.speakers-section ul li *{
     margin: 0;
@@ -210,16 +239,19 @@ section.speakers-section ul li div span.image-holder{
     z-index: -1;
     top: 20px;
     left: 0;
-    background-color: var(--darkColor);
+    background-color: var(--grayColor);
     background-image: repeating-linear-gradient(-45deg, rgba(235, 221, 221, 0.9), rgba(248, 247, 246, 0.9) 1px, transparent 4px, transparent 9px);
     background-size: 4px 4px;
 }
 section.speakers-section ul li div.speaker-details h4{
-    margin-bottom: 10px;
+    margin-bottom: 0px;
+
 }
 section.speakers-section ul li div.speaker-details span{
     color: var(--brightColor);
     font-style: italic;
+    font-size: 0.8rem;
+
 }
 section.speakers-section ul li div.speaker-details p{
    font-size: 0.8rem;
@@ -239,17 +271,20 @@ button.white-btn{
 }
 
 section.partner-section{
-    background-color: rgb(134, 133, 133)
-    
+    background-color: rgb(134, 133, 133);
+    padding: auto;
+    max-width: 900px;
+    margin: auto;
 }
 div.partners{
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 20px;
 }
 section.partner-section h3{
     position: relative;
     text-align: center;
-    padding: 20px;
+    padding: auto 20px auto ;
 
 }
 section.partner-section h3::before{
@@ -258,11 +293,13 @@ section.partner-section h3::before{
     height: 1px;
     width: 35px;
     background-color: var(--brightColor);
-    top: calc(35px + 20px);
+    top: calc(35px);
     margin: 5px 15px;
 }
 section.partner-section img{
-    width: 70px;
+    width: 100px;
+    padding: auto;
+
 }
 
 footer{
@@ -280,7 +317,7 @@ p.logo-style{
     font-size: 1.5rem;
     font-weight: 500;
     word-spacing: 2rem;
-
+    letter-spacing: 1rem;
 }
 p.rights-style{
     font-family: var(--altFont3);
