@@ -37,7 +37,51 @@ body {
 .desktop-banner{
     display: none;
 }
+.desktop-nav{
+    display: flex;
+    flex-direction: column;
+    align-items: right;
+    justify-content: flex-start;
+    height: 100vh;
+    padding: 0;
+    position: fixed;
+    left: -100%;
+    right: 100%;
+    z-index: 3;
+    top: 40px;
+    background-color: #ffffff;
+    box-shadow: -1px 1px 2px rgb(83, 83, 83);
+    transition: all 1s ease-in;
+}
+.desktop-nav .active{
+    left: 0;
+    right: 0;
+}
+.desktop-nav img{
+    width: 150px;
+    height: 60px;
+    margin: 10px 10px 0;
+}
+.desktop-nav ul{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    justify-content: space-evenly;
+}
+.desktop-nav ul li{
+    list-style-type: none;
+    padding: 20px 10px;
+}
+.desktop-nav ul li a{
+    font-weight: 600;
+    font-size: 1.4rem;
+}
 
+.desktop-nav ul li:last-child a{
+    color: var(--brightColor);
+    border: 3px solid var(--brightColor);
+    padding: 5px;
+}
 header nav.mobile-nav {
   padding: 10px;
   margin-bottom: 40px;
