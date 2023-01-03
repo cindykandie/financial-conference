@@ -45,26 +45,24 @@ header nav.mobile-nav div::after {
   bottom: 7px;
 }
 
-/* header nav.mobile-nav div.active{
+ header nav.mobile-nav div.active{
     position: relative;
     background-color: transparent;
 }
-header nav.mobile-nav div::after.active{
+header nav.mobile-nav div.active::after{
     position: absolute;
     bottom: 10px;
     transform: rotate(45deg);
     transform-origin: left;
 }
-header nav.mobile-nav div::before.active{
+header nav.mobile-nav div.active::before{
     position: absolute;
     content: '';
     bottom: 7px;
     transform: rotate(-45deg);
     transform-origin: left;
-}  */
-section{
-    margin: auto 20px 50px;
-}
+}  
+
 div.intro-title h1{
     color: var(--brightColor);
     font-weight: 400;
@@ -167,6 +165,23 @@ button.orange-btn{
     border: 1px solid var(--brightColor);
     margin: 30px auto;
     min-width: 200px;
+    color: var(--whiteColor);
+}
+
+section.speakers-section h3{
+    position: relative;
+    text-align: center;
+    padding: 20px;
+
+}
+section.speakers-section h3::before{
+    position: absolute;
+    content: "";
+    height: 1px;
+    width: 35px;
+    background-color: var(--brightColor);
+    top: calc(35px + 20px);
+    left: calc(20px + 42%);
 }
 section.speakers-section ul li{
     list-style: none;
@@ -174,23 +189,103 @@ section.speakers-section ul li{
     align-items: left;
     justify-content: center;
     position: relative;
+    gap: 15px;
+    margin: 20px 0;
 
 }
+section.speakers-section ul li *{
+    margin: 0;
+}
 section.speakers-section ul li div img{
-    width: 70px;
-    height: 80px;
-    padding: 10px;
+    width: 100px;
+    height: 100px;
+    padding: 30px 10px;
     position: relative;
 }
-section.speakers-section ul li::before{
+section.speakers-section ul li div span.image-holder{
     content: "";
     position: absolute;
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
     z-index: -1;
-    top: -20px;
+    top: 20px;
     left: 0;
     background-color: var(--darkColor);
     background-image: repeating-linear-gradient(-45deg, rgba(235, 221, 221, 0.9), rgba(248, 247, 246, 0.9) 1px, transparent 4px, transparent 9px);
-    background-size: 4px 4px;;
+    background-size: 4px 4px;
+}
+section.speakers-section ul li div.speaker-details h4{
+    margin-bottom: 10px;
+}
+section.speakers-section ul li div.speaker-details span{
+    color: var(--brightColor);
+    font-style: italic;
+}
+section.speakers-section ul li div.speaker-details p{
+   font-size: 0.8rem;
+   margin-top: 20px;
+}
+
+button.white-btn{
+    background-color: var(--whiteColor);
+    padding: 15px;
+    outline: none;
+    border: 1px solid var(--brightColor);
+    margin: 30px auto;
+    min-width: 300px;
+    color: var(--darkColor);
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+section.partner-section{
+    background-color: rgb(134, 133, 133)
+    
+}
+div.partners{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+section.partner-section h3{
+    position: relative;
+    text-align: center;
+    padding: 20px;
+
+}
+section.partner-section h3::before{
+    position: absolute;
+    content: "";
+    height: 1px;
+    width: 35px;
+    background-color: var(--brightColor);
+    top: calc(35px + 20px);
+    margin: 5px 15px;
+}
+section.partner-section img{
+    width: 70px;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    font-size: 0.8rem;
+    background-color: var(--whiteColor);
+    padding: 30px;
+
+}
+p.logo-style{
+    font-family: var(--altFont2);
+    font-size: 1.5rem;
+    font-weight: 500;
+    word-spacing: 2rem;
+
+}
+p.rights-style{
+    font-family: var(--altFont3);
+    font-weight: 300;
+    font-size: 1rem;
+    line-height: 10px;
+ 
 }
