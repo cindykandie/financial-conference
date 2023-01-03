@@ -53,7 +53,7 @@ body {
     box-shadow: -1px 1px 2px rgb(83, 83, 83);
     transition: all 1s ease-in;
 }
-.desktop-nav .active{
+.desktop-nav.active{
     left: 0;
     right: 0;
 }
@@ -93,6 +93,7 @@ header nav.mobile-nav div {
   width: 25px;
   background-color: var(--darkColor);
   cursor: pointer;
+  transition: transform 1s ease-in-out;
 }
 header nav.mobile-nav div::before {
   position: absolute;
