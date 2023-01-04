@@ -9,9 +9,15 @@
   --altFont2: "Fredoka One", cursive;
   --altFont3: "Hanken Grotesk", sans-serif;
 }
-
+.main-section{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 .intro-title {
   text-align: center;
+  max-width: 800px;
+
 }
 
 .about-statement {
@@ -21,15 +27,15 @@
   color: rgb(34, 34, 34);
   font-size: 1.08rem;
   line-height: 1.7rem;
-  margin: 20px;
+  margin: 20px auto;
   padding: 10px;
-  max-width: 900px;
+  max-width: 800px;
 }
 
 .contact {
   text-align: center;
   font-size: 1rem;
-  margin: 20px;
+  margin: 20px auto;
   max-width: 600px;
 }
 
@@ -49,7 +55,23 @@ section.display-section {
   justify-content: center;
   row-gap: 20px;
 }
-
+section.display-section h2{
+  max-width: 800px;
+  font-size: 1.6rem;
+  position: relative;
+}
+section.display-section h2::before {
+  position: absolute;
+  content: "";
+  height: 1px;
+  width: 35px;
+  background-color: var(--brightColor);
+  top: calc(35px + 20px);
+  left: 40%;
+}
+section.display-section p{
+  max-width: 800px;
+}
 section.display-section img {
   border: 1px solid var(--grayColor);
   margin-bottom: 20px;
@@ -67,6 +89,7 @@ section.past-events h3 {
   position: relative;
   text-align: center;
   padding: 20px;
+  font-size: 1.6rem;
 }
 
 section.past-events h3::before {
@@ -88,14 +111,14 @@ section.past-events div div {
 }
 
 section.past-events div div img {
-  width: 300px;
+ width: 350px;
   height: 150px;
   padding: 20px;
 }
 
 section.past-events div div span {
   position: absolute;
-  width: 300px;
+  width: 350px;
   height: 150px;
   margin: 20px;
   top: 0;
