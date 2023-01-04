@@ -205,4 +205,8 @@
   section.past-events div {
     display: flex;
   }
+  p.logo-style {
+    
+    letter-spacing: 1rem;
+  }
 }

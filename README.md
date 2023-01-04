@@ -38,6 +38,7 @@
 
 # 📖 [Hello microverse] <a name="about-project"></a>
 - View live website on https://cindykandie.github.io/capstone-1/
+- Walkthrough the website https://loom.com/share/a35ab94b868b406aaf5615345802dfbe
 - This is a home page and about page created using HTML and CSS. With this minimal site, I have implemented the capstone 1 behance design by Cindy Shin.
 - I used css flexbox to display my elements correctly
 - added images on the page
@@ -48,6 +49,7 @@
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 - [Live Demo Link](https://cindykandie.github.io/capstone-1/)
+
 
 ## 🛠 Built With <a name="built-with"></a>
 - HTML
