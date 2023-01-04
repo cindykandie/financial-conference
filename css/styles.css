@@ -261,7 +261,7 @@ section.program-section ul li {
 
 section.partner-section img {
   width: 100px;
-  padding: auto;
+  padding: 10px;
 }
 
 section.program-section ul li img {
@@ -392,6 +392,7 @@ div.partners {
   padding: 0;
   justify-content: center;
   align-items: center;
+  
 }
 
 section.partner-section h3 {
