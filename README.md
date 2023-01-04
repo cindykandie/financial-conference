@@ -1,33 +1,13 @@
 <a name="readme-top"></a>
 
-<!--
-HOW TO USE:
-This is an example of how you may give instructions on setting up your project locally.
 
-Modify this file to match your project and remove sections that don't apply.
-                                                                                                                                                                                                            
-REQUIRED SECTIONS:
-- Table of Contents
-- About the Project
-  - Built With                                                                                              
-                      - Live Demo
-                    - Getting Started
-                    - Authors
-                    - Future Features
-                    - Contributing
-                    - Show your support
-                    - Acknowledgements
-                    - License
 
-                    After you're finished please remove all the comments and instructions!
-                    -->
+<div align ="center">
 
-                    <div align="center">
-
-                      <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
+<img src="assets/fire-round-button.png" alt="logo" width="140"  height="auto" />
   <br/>
 
-  <h3><b>My Portfolio</b></h3>
+  <h3><b>FINANCIAL FREEDOM ROADMAP 2023</b></h3>
 </div>
 
 <!-- TABLE OF CONTENTS -->
@@ -57,17 +37,17 @@ REQUIRED SECTIONS:
 <!-- PROJECT DESCRIPTION -->
 
 # 📖 [Hello microverse] <a name="about-project"></a>
-- View live website on https://cindykandie.github.io/microverse-portfolo/
-- This is a home page created using HTML and CSS. With this minimal site, I have implemented the figma design template 1 by Microverse.
+- View live website on https://cindykandie.github.io/capstone-1/
+- This is a home page and about page created using HTML and CSS. With this minimal site, I have implemented the capstone 1 behance design by Cindy Shin.
 - I used css flexbox to display my elements correctly
 - added images on the page
 - Put text of various size and color
-- I have 5 main sections- Intro, Projects, About, Skills and Contact
-- The entire site is now fully sesponsive
+-I customized the design to my FIRe project
+- The entire site is now fully responsive with a desktop and mobile menu in place
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://cindykandie.github.io/microverse-portfolo/)
+- [Live Demo Link](https://cindykandie.github.io/capstone-1/)
 
 ## 🛠 Built With <a name="built-with"></a>
 - HTML
@@ -111,7 +91,7 @@ Example commands:
 
 Install this project with:
 
-- to install locally run git clone https://github.com/cindykandie/Hello-microverse.git
+- to install locally run git clone https://github.com/cindykandie/capstone-1.git
 - open the cloned directory with VSCode
 - Install lives server extension on VSCode
 - Right click on the index.html and select open with live server/Go Live
@@ -151,14 +131,13 @@ Example:
 
 > Describe between 1-3 key features of the application.
 
-- **[Indroductory section]**
-- **[Project and About me section]**
-- **[Contact me section]**
+- **[Introductory section]**
+- **[Home and About pages]**
 - **[Transition and Animation]**
 - **[Added Functionality using Javascript]**
 - **[Added mobile-menu using Javascript]**
-- **[Added Functionality Popup Window for Each project]**
-- **[Added presvation of data in the browser using Javascript]**
+- **[Added speakers using js]**
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -166,7 +145,6 @@ Example:
 
 ## 👥 Authors <a name="authors"></a>
 
-> Mention all of the collaborators of this project.
 
 👤 **Author1**
 
@@ -174,23 +152,6 @@ Example:
 - Twitter: [@cndykandie](https://twitter.com/cindykandie)
 - LinkedIn: [@cindykandie](https://www.linkedin.com/in/cindykandie/)
 
-👤 **Author2** 
-
-- GitHub: [@lorenzoworx](https://github.com/lorenzoworx)
-- Twitter: [@lorenzoworx](https://twitter.com/lorenzoworx)
-- LinkedIn: [@lorenzoworx](https://www.linkedin.com/in/lorenzoworx/)
-
-👤 **Author3** 
-
-- GitHub: [@martinkarugaba](https://github.com/martinkarugaba)
-- Twitter: [@martinkarugaba](https://twitter.com/martinkarugaba)
-- LinkedIn: [@martinkarugaba](https://www.linkedin.com/in/martinkarugaba/)
-
-👤 **Author4** 
-
-- GitHub: [@joshualyngdoh](https://github.com/joshualyngdoh)
-- Twitter: [@joshualyngdoh](https://twitter.com/joshualyngdoh08)
-- LinkedIn: [@joshualyngdoh](https://www.linkedin.com/in/joshualyngdoh/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -225,8 +186,8 @@ If you like this project create a pr and lets work together, or maybe leave a st
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 > Give credit to everyone who inspired your codebase.
-
-I would like to thank my coding partners, standup partner- Oshoke Lorenzo and every code reviewer
+- I would like to credit Cindy SHin for the amazing Behance design that my project is based off
+- I would like to thank my coding partners, standup partners every code reviewer
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

@@ -33,8 +33,7 @@
     }
     .desktop-banner ul img{
         width: 20px;
-         box-shadow: 10px 10px 5px var(--whiteWhite) inset; 
-        /* fill: #fff; */
+        filter: invert(1);
     }
     .desktop-banner ul li{
         list-style-type: none;
@@ -147,7 +146,7 @@
         width: auto;
         font-size: 0.7rem;
     }
-    .white-btn{
+    .more-button{
         display: none;
     }
     section.speakers-section{
