@@ -31,12 +31,12 @@
     margin-bottom: 30px;
     max-width: 600px;
     margin: auto;
-
-
   }
   .contact a{
-    color: black;
-    font-weight: 500;
+    color: #0a0101;
+    font-weight: 600;
+    font-family: "lato", sans-serif;
+    text-decoration: underline; 
   }
 section.display-section{
     background-color: var(--whiteWhite);

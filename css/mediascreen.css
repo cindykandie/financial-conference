@@ -17,7 +17,7 @@
         display: flex;
         align-items: right;
         justify-content: end;
-        background-color: #8b8b8b;
+        background-color: var(--darkColor);
         padding: 0;
         position: fixed;
         top: -5px;
@@ -25,6 +25,7 @@
         right: 0;
         height: 45px;
         z-index: 3;
+        
     }
     .desktop-banner ul{
         display: flex;
@@ -32,20 +33,44 @@
     }
     .desktop-banner ul img{
         width: 20px;
+         box-shadow: 10px 10px 5px var(--whiteWhite) inset; 
+        /* fill: #fff; */
     }
     .desktop-banner ul li{
         list-style-type: none;
         padding: 0 10px;
+        color: white;
+    }
+    .desktop-banner ul li a{
+        color: white;
+        font-weight: 600;
     }
     .mobile-nav{
         display: none;
     }
     .desktop-nav{
+        left: 0;
+        right: 0;
+        height: 50px;
+        flex-direction: row;
         top: 40px;
         background-color: #ffffff;
-        height: 50px;
         justify-content: space-between;
         box-shadow: -1px 1px 2px rgb(83, 83, 83);
+    }
+    .desktop-nav ul{
+        display: flex;
+        flex-direction: row;
+        padding: 0 10px;
+        justify-content: space-evenly;
+    }
+    .desktop-nav ul li{
+        list-style-type: none;
+        padding: 0 5px;
+    }
+    .desktop-nav ul li a{
+        font-weight: 600;
+        font-size: 1rem;
     }
     .desktop-nav ul li:last-child a{
         color: var(--brightColor);
@@ -60,16 +85,32 @@
     section{
         margin: 100px;
     }
-    
+    section.main-section{
+        margin: 50px auto;
+        padding: 100px;
+    }
+    div.intro-title h1{
+        font-size: 3rem;
+    }
+    div.intro-title h2{
+        font-size: 4rem;
+    }
     
     div.intro-text p{
         max-width: 800px;
+    }
+    section.program-section{
+        width: 100%;
+        max-width: 2100px;
+        align-items: center;
+        margin: -50px auto auto;
     }
     section.program-section ul{
         flex-direction: row;
         gap: 10px;
         align-items: stretch;
         margin-right: 30px;
+        justify-content: center;
 
     }
     section.program-section ul li{
@@ -87,8 +128,24 @@
     }
     section.program-section ul li *{
         margin: 0;
-        padding: 0;
+        padding: 10px;
         box-sizing: border-box;
+    }
+    section.program-section ul li img{
+        width:50%;
+        padding: 0;
+        margin: 0;
+    } 
+    section.program-section ul li h4{
+        font-size: 15px;
+        width: auto;
+        margin: auto;
+        padding: 0;
+        
+    }
+    section.program-section ul li p{
+        width: auto;
+        font-size: 0.7rem;
     }
     .white-btn{
         display: none;
@@ -114,6 +171,7 @@
         font-size: 0.8rem;
         margin-top: 10px;
      }
+     
      section.partner-section img{
         width: 180px;
         padding: auto 20px;
