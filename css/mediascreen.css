@@ -146,8 +146,9 @@
   }
 
   section.partner-section img {
-    width: 180px;
-    padding: auto 20px;
+    width: 70%;
+    max-width: 200px;
+    padding: 20px;
   }
 
   section.program-section ul li img {
@@ -208,5 +209,9 @@
 
   p.logo-style {
     letter-spacing: 1rem;
+  }
+
+  div.partners {
+    grid-template-columns: auto auto auto auto auto;
   }
 }

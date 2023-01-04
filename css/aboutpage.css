@@ -137,3 +137,14 @@ section.past-events div div span {
   justify-content: center;
   font-size: 1.4rem;
 }
+
+@media only screen and (min-width: 768px) {
+  section.partner-section {
+    display: none;
+  }
+
+  footer {
+    background-color: var(--darkColor);
+    color: var(--whiteColor);
+  }
+}
