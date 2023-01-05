@@ -91,6 +91,16 @@ body {
   padding: 5px;
 }
 
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: var(--whiteWhite);
+  padding: 10px;
+  z-index: 3;
+}
+
 header nav.mobile-nav {
   padding: 10px;
   margin-bottom: 40px;
