@@ -48,7 +48,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://cindykandie.github.io/capstone-1/)
+- [Live Demo Link](https://cindykandie.github.io/financial-conference/)
 
 
 ## 🛠 Built With <a name="built-with"></a>
